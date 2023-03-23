@@ -75,6 +75,7 @@
 					<test>TestCases.java</test>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 </project>
