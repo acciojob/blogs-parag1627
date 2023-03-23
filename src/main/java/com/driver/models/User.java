@@ -18,14 +18,17 @@ public class User{
     public User(){
 
     }
-    public User (int id, String userName, String password, String firstName, String lastName) {
+    public User (int id, String username, String password, String firstName, String lastName) {
         this.id = id;
-        this.username = userName;
+        this.username = username;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
     public int getId() {
         return id;
     }
